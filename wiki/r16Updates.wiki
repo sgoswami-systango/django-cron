@@ -5,7 +5,7 @@ If you are updating to r16 or higher from previous versions, please note that yo
 
 you will need to change your old imports:
 {{{
-    from django_cron import cron
+    from django_cron.base import cron
 }}}
 
 to
