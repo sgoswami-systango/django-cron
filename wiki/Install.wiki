@@ -1,4 +1,6 @@
+#summary How to install django-cron
 #labels Featured,Phase-Implementation
+
 = How to install djang-cron =
 
 1. Put 'django_cron' into your python path
