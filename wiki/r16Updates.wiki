@@ -1,0 +1,15 @@
+= Updating to r16 or higher - READ THIS FIRST =
+If you are updating to r16 or higher from previous versions, please note that you will need to *update your cron.py files*
+
+you will need to change your old imports:
+{{{
+    from django_cron import cron
+}}}
+
+to
+
+{{{
+    from django_cron import cronScheduler as cron
+}}}
+
+This change was to resolve an ugly namespace problem
