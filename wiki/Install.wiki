@@ -11,7 +11,7 @@
 
     {{{
 import django_cron
-django_cron.autodiscover()
+django_cron.admin.admin.autodiscover()
     }}}
 
 4. Create a file called 'cron.py' inside each installed app that you want to add a recurring job to. The app must be installed via the INSTALLED_APPS in your settings.py or the autodiscover will not find it.
